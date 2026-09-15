@@ -1,0 +1,9 @@
+*
+!Dockerfile
+!*.Dockerfile
+!image-scripts/
+!setup-scripts/
+
+# never ship these even if they end up inside an allowed folder
+**/.DS_Store
+**/*.swp

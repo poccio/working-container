@@ -1,0 +1,16 @@
+# secrets and keys — none should ever live in this repo
+.env
+.env.*
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+authorized_keys
+
+# OS / editor noise
+.DS_Store
+.idea/
+.vscode/
+
+# other stuff
+README.principled.md
